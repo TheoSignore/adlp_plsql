@@ -1,0 +1,26 @@
+create or replace package                 charge_avis_pkg as
+    procedure charge_avis ;
+    procedure p010_quantieme ;
+    procedure p020_trunc_event_client_tmp ;
+    procedure p030_sygal ;
+    procedure p040_adlm ;
+    procedure p050_maj_ec_tmp_add_adl;
+    procedure p060_ann_an3_74;
+    procedure p070_code_statut0 ;
+    procedure p080_150_annulation_periode ;
+    procedure p090_reinst_periode;
+    procedure p100_rep_periode;
+    procedure p110_produit ;
+    procedure p120_type_event ;
+    procedure p130_date_planning ;
+    procedure p140_chrono_dest ;
+    procedure p160_updchrono_dest ;
+    procedure p170_remise_status ;
+    procedure p180_generation_mes ;
+    procedure p190_offre ;
+    procedure p200_supp_code_statut0 ;
+    procedure p210_tmp2event_client ;
+    procedure p220_intercept_num ;
+    procedure p230_maj_quantieme ; 
+    function verif_compte return number ;
+end charge_avis_pkg;
