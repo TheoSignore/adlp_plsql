@@ -15,7 +15,7 @@ __Fichiers concernées:__
 L'entreprise *ADL Partner* possède une branche chargé de vendre des abonnements pour les éditeurs de magazine.
 Lorsqu'il y a un changement d'adresse, une suspension, une suppression ou une création d'abonnement, il faut structurer les informations relatives à ces évènements avant d'en faire part à l'éditeur, ces "comptes-rendu", se nomment des avis.
 
-Mon travail était de recréer le processus de traitement des avis, crée à l'origine à l'aide d'un logiciel nommé *GENIO*, sous la forme d'un *Packge PL/SQL* afin de rendre le processus maintenable par le personnel ne maîtrisant pas *GENIO* ainsi que d'éliminer la création de fichier intermédiaire vestige de l'ancienne configuration.
+Mon travail était de recréer le processus de traitement des avis, crée à l'origine à l'aide d'un logiciel nommé *GENIO*, sous la forme d'un *Packge PL/SQL* afin de rendre le processus maintenable par le personnel ne maîtrisant pas *GENIO* ainsi que d'éliminer la création de fichier intermédiaire, vestige de l'ancienne configuration.
 
 Le traitement extrait des informations de deux tables de deux bases de données différente puis traite ces informations avant de les placer dans une table de sortie où d'autre processus pourront fabriquer les avis sous forme de document.
 
